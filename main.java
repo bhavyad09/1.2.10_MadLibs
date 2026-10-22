@@ -40,7 +40,16 @@ public class MadLibs {
         System.out.print("Enter a number. ");
         int input10 = scanner.nextInt();
 
-        scanner.close(); 
+        scanner.close();
+
+        System.out.println("*trumpets*");
+        System.out.println("Hear ye, hear ye, for I have a public declaration from Lord " + input1 + "!");
+        String crime = "We are searching for the most ";
+        crime += input5 + " ";
+        crime += input2 + " ";
+        crime += input3 + " ";
+        crime += "the IV for committing the abhorrent crime of stealing the last cookie from the cookie jar.";
+        System.out.println(crime);
     }
 }
 
